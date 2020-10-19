@@ -9,7 +9,7 @@ public abstract class Tripulant {
 	protected static final String bandol = "Imperi Klingon";
 	protected String ID;
 	protected String nom;
-	protected boolean actiu;				// Si el metge el dona de baixa a llavors valdrà false.
+	protected boolean actiu;				// Si el metge el dona de baixa llavors valdrà false.
 	protected LocalDateTime dataAlta;
 	protected int departament;				// Departament al qual pertany: comandament (1), 
 											// armes (2), timó i navegació (3), enginyeria (4) i ciència (5).

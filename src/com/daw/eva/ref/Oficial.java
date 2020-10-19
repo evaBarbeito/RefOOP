@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 
 
 public class Oficial extends Tripulant {
-	private boolean serveiEnElPont;		// Si el tripulant serveix en el pont a llavors true.
+	private boolean serveiEnElPont;		// Si el tripulant serveix en el pont, llavors true.
 	private String descripcioFeina;
 	
 

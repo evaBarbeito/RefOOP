@@ -34,12 +34,12 @@ public class IKSRotarran {
 		System.out.println();
 		
 		Oficial capitaTmp1 = new Oficial("001-A", "Martok", true, LocalDateTime.parse("15-08-1954 00:01", formatter), 1, 1, true, "Capitanejar la nau.");
-		System.out.println("capitaTmp1 ha estat declarat del tipus Oficial, capitaTmp1.patata():");
+		System.out.println("capitaTmp1 ha estat declarat del tipus Oficial");
 		capitaTmp1.saludar();
 		
 		System.out.println();
 		Tripulant capitaTmp2 = new Oficial("001-A", "Martok", true, LocalDateTime.parse("15-08-1954 00:01", formatter), 1, 1, true, "Capitanejar la nau.");
-		System.out.println("capitaTmp2 ha estat declarat del tipus Tripulant, capitaTmp2.patata():");
+		System.out.println("capitaTmp2 ha estat declarat del tipus Tripulant");
 		capitaTmp2.saludar();
 		
 		System.out.println();
@@ -58,6 +58,14 @@ public class IKSRotarran {
 		System.out.println("capita.equals(capitaTmp2): " + capita.equals(capitaTmp2));
 		System.out.println("capita.equals(capitaTmp3): " + capita.equals(capitaTmp3));
 		
+		
+		System.out.println();
+		System.out.println("------------ EXERCICI 5 ------------");
+		System.out.println();
+		
+		System.out.println(IKSRotarranConstants.LLOCS_DE_SERVEI[capita.getLlocDeServei()]);
+		
+		
 		System.out.println();
 		System.out.println("------------ EXERCICI 6 ------------");
 		System.out.println();
@@ -71,6 +79,8 @@ public class IKSRotarran {
 		System.out.println();
 		
 		System.out.println(mariner_02_03);
+		System.out.println("Cridant a imprimirDadesTripulant:");
+		mariner_02_03.imprimirDadesTripulant();
 
 	}
 

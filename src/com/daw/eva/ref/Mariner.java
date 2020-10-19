@@ -24,8 +24,8 @@ public class Mariner extends Tripulant {
         
         System.out.println(  
         		"DADES TRIPULANT: " +
-            	"\n        Bandol: " + bandol + 		// ¿No fa falta posar el super?.
-    			"\n        ID: " + super.ID + 		// ¿No fa falta posar el super?.
+            	"\n        Bandol: " + bandol + 
+    			"\n        ID: " + super.ID + 		
                 "\n        Nom: " + nom + 
                 "\n        Actiu: " + actiu + 
                 "\n        Departament (de la classe Tripulant): " + departament + 
